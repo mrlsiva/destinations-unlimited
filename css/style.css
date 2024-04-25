@@ -9373,6 +9373,7 @@ p {
   color: #fff;
 
 }
+
 /*  [ 06 ] - Images
 ====================== */
 img {
@@ -10190,9 +10191,31 @@ input[type="submit"].form-control:focus {
 .main-menu.sf-arrows .sfHover > a.sf-with-ul:after {
   color: #D12923;
 }
+.payment-form {
+  float: right;
+  position: fixed;
+  bottom: 0;
+  right: 18px;
+  transform: translateY(-50%);
+  margin-left: 20px;
+}
+a.PaymentButton.PaymentButton--dark.PaymentButton--rzpTheme.PaymentButton--rzp-dark-standard.svelte-ekc7fv {
+  background: #d12923;
+  border-color: #d12923;
+}
+.PaymentButton--rzpTheme.svelte-ekc7fv.svelte-ekc7fv::before {
+  background: #9c231e !important;
 
+}
 /* Mobile Menu */
 @media (min-width: 992px) {
+  .payment-form {
+    float: right;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 20px;
+  }
   .slide-content h2 {
     font-size: 53px;
     color: #fff;

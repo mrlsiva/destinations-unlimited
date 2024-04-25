@@ -59,20 +59,27 @@
 
 							<a class="logo" href="#">
 								<img src="images/files/logo.svg" alt="">
-								<h5><span class="colored">Travel</span> Tour</h5>
-								<span>Landing Template</span>
+								<!-- <h5><span class="colored">Travel</span> Tour</h5> -->
+								<!-- <span>Landing Template</span> -->
 							</a><!-- .logo end -->
 
 							<ul id="main-menu" class="main-menu">
 								<li><a data-scroll-nav="0" href="#home">Home</a></li>
 								<li><a data-scroll-nav="1" href="#our-services">About Us</a></li>
-								<li><a data-scroll-nav="2" href="#our-adventures">Tours</a></li>
+								<li><a data-scroll-nav="2" href="#popular-packages">Tours</a></li>
 								<li><a data-scroll-nav="3" href="#best-events">Destinations</a></li>
-								<!-- <li><a data-scroll-nav="4" href="#tour-guide">Contact</a></li>
-								<li><a data-scroll-nav="5" href="#happy-clients">Testmonials</a></li> -->
+
 								<li><a data-scroll-nav="6" href="#get-connected">Contact</a></li>
 							</ul>
-							<a class="header-btn btn small colorful hover-dark" href="#">Pay Online</a>
+							<!-- <a class="header-btn btn small colorful hover-dark" href="#" data-payment_button_id="pl_O2lzQNhUdKknGD">Pay Online</a> -->
+      <form class="payment-form">
+        <script src = "https://checkout.razorpay.com/v1/payment-button.js"
+          data-payment_button_id = "pl_O2lzQNhUdKknGD"
+          data-button_text = "Pay Online"
+          data-button_theme = "#000">
+        </script>
+    </form>
+						
 							<div class="mobile-menu-btn hamburger hamburger--slider">
 								<span class="hamburger-box">
 									<span class="hamburger-inner"></span>
@@ -210,7 +217,7 @@
 				</div><!-- .flat-section end -->
 
 				<!-- === Popular Packages =========== -->
-				<div id="popular-packages" class="flat-section popular-packages" data-scroll-index="1">
+				<div class="flat-section popular-packages">
 
 					<div class="section-title">
 
@@ -235,7 +242,7 @@
 
 					</div><!-- .section-title end -->
 
-					<div class="section-content">
+					<div id="popular-packages" class="section-content" data-scroll-index="2">
 
 						<div class="container">
 							<div class="row">
@@ -286,7 +293,7 @@
 				</div><!-- .flat-section end -->
 
 				<!-- === Our Adventures =========== -->
-				<div id="our-adventures" class="flat-section our-adventures" data-scroll-index="2">
+				<div id="best-events" class="flat-section our-adventures" data-scroll-index="3">
 
 					<div class="section-title">
 
@@ -391,7 +398,7 @@
 				</div><!-- .flat-section end -->
 
 				<!-- === Best Events =========== -->
-				<div id="best-events" class="flat-section best-events" data-scroll-index="3">
+				<div class="flat-section best-events" >
 
 					<div class="section-title">
 
@@ -455,7 +462,7 @@
 				</div><!-- .flat-section end -->
 
 				<!-- === CTA Title 2 =========== -->
-				<div class="parallax-section cta-title title-2" data-scroll-index="3" data-parallax-bg-img="img-33.jpg"
+				<div id="get-connected" class="parallax-section cta-title title-2" data-scroll-index="4"
 					data-stellar-background-ratio="0.2">
 
 					<div class="overlay-colored" data-bg-color="#0D2857"></div>
