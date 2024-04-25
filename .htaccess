@@ -1,5 +1,0 @@
-<Directory "/path/to/source/file/directory/www">
-    Options Indexes FollowSymLinks
-    AllowOverride all
-    Require all granted
-</Directory>
