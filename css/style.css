@@ -510,7 +510,9 @@ p {
   font-weight: 300;
   line-height: 1.4;
 }
-
+.ft-18 {
+  font-size: 18px;
+}
 @media (min-width: 768px) {
   .lead {
     font-size: 21px;
@@ -2380,6 +2382,9 @@ select[multiple].input-lg {
   }
 }
 @media (max-width: 767px) {
+  .ft-18 {
+    font-size: 16px;
+  }
   .visible-xs-block {
     display: block !important;
   }
