@@ -9369,7 +9369,7 @@ p {
   color: #fff;
 }
 .slide-content h2 {
-  font-size: 53px;
+  /* font-size: 53px; */
   color: #fff;
 
 }
@@ -10193,6 +10193,11 @@ input[type="submit"].form-control:focus {
 
 /* Mobile Menu */
 @media (min-width: 992px) {
+  .slide-content h2 {
+    font-size: 53px;
+    color: #fff;
+  
+  }
   #mobile-menu {
     display: none !important;
   }
