@@ -14490,7 +14490,8 @@ line-height: 24px;
 
 .termConditionsBanner::after {
   content: "";
-  background: linear-gradient(270deg, rgba(5, 16, 54, 0.13) 0.28%, rgba(5, 16, 54, 0.9) 72.43%);
+  /* background: linear-gradient(270deg, rgba(5, 16, 54, 0.13) 0.28%, rgba(5, 16, 54, 0.9) 72.43%); */
+  background:#00000069;
   position: absolute;
   left: 0;
   right: 0;
